@@ -1,5 +1,93 @@
 
 
 body{
-    background-color: blue;
+    background-color:teal;
+
+}
+
+.formularioContenedor {
+    border: solid 3px;
+    margin: 3rem auto 3rem auto;
+    background-color: #787878;
+    color: wheat;
+    width: 80rem;    
+    text-align: center;
+}
+form{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#botonIndex {
+    margin: 1rem 0 0 0;
+    width: 60%;
+    color: floralwhite;
+    background-color: brown;
+}
+
+
+h1 {
+    color:maroon;
+}
+
+.datosDelPrestamo h2 {
+    text-align: center;
+}
+
+.datosDelPrestamo {
+    border: solid 2px red;
+    background-color: #787878;
+    width: 80rem;    
+    margin: auto;
+    padding: 2rem;
+}
+
+table {
+    margin: auto;
+}
+
+thead {
+    background-color: rgb(124, 97, 97);
+    color: rgb(174, 194, 184);
+
+}
+
+th{
+    padding: 1rem;
+}
+
+tbody {
+    background-color: rgb(156, 163, 161);
+    text-align: center;
+    width: 100%;
+ 
+}
+
+
+/*    INDEX 3 */
+
+#index3 {
+    background-color:teal;
+}
+
+
+#formularioInicioSesion {
+    display: block;
+    justify-content: center;
+    width: 30%;
+    padding: 2rem;
+}
+
+.registroContenedor {
+    text-align: end;
+    color: seashell;
+    padding: 1rem;
+
+}
+
+#registrarse {
+    color: wheat;
+    margin: 0 15rem 0 0;
 }

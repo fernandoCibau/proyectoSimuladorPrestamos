@@ -1,17 +1,23 @@
 
 
-body{
-    background-color:teal;
+    
 
-}
+
+
 
 .formularioContenedor {
     border: solid 3px;
     margin: 3rem auto 3rem auto;
     background-color: #787878;
     color: wheat;
-    width: 80rem;    
+    width: 40rem;    
     text-align: center;
+}@media only screen and (max-width: 680px){
+    .formularioContenedor{
+        width: 16rem;    
+        margin: auto;
+    }
+    
 }
 form{
     margin: auto;
@@ -69,15 +75,30 @@ tbody {
 /*    INDEX 3 */
 
 #index3 {
-    background-color:teal;
+    background-color:teal
 }
 
 
 #formularioInicioSesion {
-    display: block;
+    display: flex;
     justify-content: center;
-    width: 30%;
+    width: 15rem;
     padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 1rem;
+}
+@media only screen and (max-width: 680px){
+    #formularioInicioSesion {
+        display: block;
+        justify-content: center;
+
+        padding: 2rem;
+
+    }
+    
+}
+.botonRegistrado{
+    margin-top: 1rem;
 }
 
 .registroContenedor {
@@ -90,4 +111,44 @@ tbody {
 #registrarse {
     color: wheat;
     margin: 0 15rem 0 0;
+}
+
+
+
+
+
+
+
+
+/*  RESULTADO */
+
+.bodyResultado{
+    background-image:radial-gradient( circle at 50% 50%, rgb(191, 230, 222) 0.1%, rgba(11, 59, 53, 0.726) 100% );
+}
+
+.resultadoContenedor{
+    width: 90%;
+    padding: 3%;
+    margin: auto;
+    font-size: larger;
+    background-image:radial-gradient( circle at 50% 50%, rgb(191, 230, 222) 0.1%, rgba(11, 59, 53, 0.726) 100% );
+}
+
+#reciboContenedor {
+    margin: auto;
+    border: solid;
+    display: flex;
+    justify-content: center;
+ 
+}
+@media only screen and (max-width: 425px){
+    .resultadoContenedor  {
+        font-size: 0.7rem; 
+    }
+    
+}
+
+.listaDatos{
+    color: brown;
+    list-style: none;
 }

@@ -5,7 +5,7 @@
 //                            // FUNCION DE INICIO y REINICIO
 
 function reinicioDeError () {
-    $('document').ready( $( '.errorUsuarioIncorrectorror').hide()  );
+    $('document').ready( $( '.errorUsuarioIncorrecto').hide()  );
 
     $('#inputEmail').click( () => {
         inputEmail.style.background =  'white'
@@ -47,7 +47,7 @@ $( '#formularioInicioSesion').submit(  (e) =>{
 })
 
 //                                                  // ********** FIN INICIO DE SESiON **********
-//                                                 //********** INICIO LINK REGISTRARSE **********
+// //                                                 //********** INICIO LINK REGISTRARSE **********
 
 $( '#registrarse').click(  () => {
 
@@ -56,24 +56,25 @@ $( '#registrarse').click(  () => {
 })
 
 
-//                                                //********** FIN LINK REGISTRARSE **********
-//                                               //********** INICIO FORMULARIO REGISTRO **********
+// //                                                //********** FIN LINK REGISTRARSE **********
+// //                                               //********** INICIO FORMULARIO REGISTRO **********
 
-document.querySelector( '#formularioInicioSesion').addEventListener( 'submit', (e) =>{
+// document.querySelector( '#formularioInicioSesionn').addEventListener( 'submit', (e) =>{
 
-    e.preventDefault()
-    boton.style.background =  'green'
-
-
-    const inicioEmail = document.querySelector( '#inputEmail').value ;
-    const inicioContrasenia = document.querySelector( '#inputContrasenia').value;
-    sessionStorage.setItem( 'usuario', inicioEmail);
-    sessionStorage.setItem( 'contrasenia', inicioContrasenia);
-   console.log(inicioEmail, inicioContrasenia)
+//     e.preventDefault()
+//     boton.style.background =  'green'
 
 
-   window.location.href  = 'index.html'  ;
+//     const inicioEmail = document.querySelector( '#inputEmail').value ;
+//     const inicioContrasenia = document.querySelector( '#inputContrasenia').value;
+//     sessionStorage.setItem( 'usuario', inicioEmail);
+//     sessionStorage.setItem( 'contrasenia', inicioContrasenia);
+//    console.log(inicioEmail, inicioContrasenia)
 
-})
 
-//                                               //********** FIN FORMULARIO REGISTRO **********
+//    window.location.href  = 'index.html'  ;
+
+// })
+
+// //                                               // ********** FIN FORMULARIO REGISTRO **********
+
